@@ -80,4 +80,12 @@
         top: 0px;
         left: -60px;
     }
+
+    /* SIXTH-SECTION */
+
+    .criteria{
+        margin: 30px;
+        text-align: center;
+        padding: 40px 30px;
+    }
 }
