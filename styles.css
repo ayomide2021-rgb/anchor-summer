@@ -280,3 +280,23 @@ nav> div> a {
 .fifth{
     padding: 60px;
 }
+
+/* SIXTH SECTION */
+.sixth-section{
+    height: 40%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.criteria{
+    background-color: white;
+    padding: 50px;
+    color: rgb(107, 5, 82);
+}
+
+.criteria> p{
+    font-size: 18px;
+}
