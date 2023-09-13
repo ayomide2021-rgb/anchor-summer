@@ -1,0 +1,498 @@
+*{
+    margin: 0px;
+    font-family:  'Montserrat', sans-serif;
+    transition: linear .3s;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgb(0, 0, 0, 0.85)), url(images/aulview.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* NAV SECTION */
+.hero> .phone-nav{
+    display: none;
+}
+
+
+nav{
+    background-color: rgba(3, 0, 12, 0.6);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+nav> div {
+    float: right;
+    padding: 0px;
+}
+
+nav> img {
+   float: left;
+   margin: 15px 70px;
+    
+}
+
+.hero> nav> div> a {
+    text-decoration: none;
+    color: white;
+    font-weight: light;
+    padding: 0px 20px;
+}
+
+nav> div> a:hover {
+    color: rgb(247, 148, 217);
+    font-size: 18px;
+}
+
+
+
+/* HERO SECTION */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 550px;
+}
+
+.hero > .text{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.text> h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.text> h5{
+    color: rgb(234, 175, 252);
+}
+
+.text> h1 > span {
+    color: rgb(218, 120, 248);
+}
+
+.hero-link> a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.hero-link{
+    background-color: transparent;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hero-link> a:hover{
+    background-color: rgb(218, 120, 248);
+    color: rgb(54, 4, 70);
+}
+
+/* SECOND SECTION */
+.second-section{
+    background-color: white;
+    height: 100%;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(82, 9, 104);
+    margin: 0px !important;
+}
+
+.second-section> .first{
+    margin: 0px 50px;
+    text-align: justify;
+}
+
+.fb-btn{
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(178, 55, 216);
+}
+
+.fb-btn:hover{
+    padding: 12px 17px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(178, 55, 216);
+}
+
+
+.second-section> .image{
+    background: url(images/who.jpg);
+    background-size: 100%;
+    height: 270px;
+    width: 500px;
+    border-left: 10px solid rgb(108, 15, 136);
+    margin: 20px;
+}
+
+
+.second-section> .image:hover{
+    background-size: 105%;
+    border-left: 10px solid rgb(167, 77, 194);
+}
+
+
+/* THIRD-SECTION */
+.third-section{
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 100px 0px;
+}
+
+.third-section> h3{
+    color: white;
+    font-weight: 700;
+}
+
+.third-section> h6{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+.third-section> .diploma{
+    background-color: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.third-section> .diploma> .english{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 320px;
+    height: 100%;
+    color: rgb(87, 6, 112);
+    padding: 30px 30px;
+    text-align: left !important;
+    border-radius: 5px;
+    margin: 20px 30px;
+    
+}
+
+.english> h5{
+    border-left: 2px solid rgb(87, 6, 112);
+    padding: 0px 10px;
+}
+
+.english> .image1{
+    height: 200px;
+    background: url(images/english.JPG);
+    background-size: cover; 
+}
+
+.english> .image2{
+    height: 200px;
+    background: url(images/french.JPG);
+    background-size: cover; 
+}
+
+.english> .image3{
+    height: 200px;
+    background: url(images/DISS.JPG);
+    background-size: cover; 
+}
+
+.english> p{
+    font-size: 14px;
+}
+
+.eng-btn{
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(176, 57, 212);
+}
+
+.eng-btn:hover{
+    background-color: rgb(113, 16, 143);
+}
+
+/* FOURTH SECTION */
+
+.fourth-section{
+    background-color: rgb(248, 217, 230);
+    padding: 50px 0px;
+    color: rgb(48, 1, 34);
+    text-align: center;
+
+}
+
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section> .carousel> .carousel-inner> .carousel-item> .fourth> div> .card{
+    border: none;
+    padding: 0px;
+    text-align: left;
+    background-color: rgb(48, 1, 34);
+    height: 100%;
+    color: white;
+    border: 5px solid white;
+    width: 300px;
+    margin: 10px 5px;
+}
+
+.fourth-section> .carousel> .carousel-inner> .carousel-item> .fourth> div> .card> .card-course{
+    background-size: cover;
+    height: 120px;
+}
+
+.fourth-section> .carousel> .carousel-inner> .carousel-item> .fourth> div> .card> .card-enroll{
+    padding: 30px 20px;
+    height: 300px;
+}
+
+.fourth-section> .carousel> .carousel-inner> .carousel-item> .fourth> div> .card> .card-enroll> ul> li {
+    margin-bottom: 13px !important;
+}
+
+.card-btn{
+    padding: 10px 20px;
+    background-color: rgb(231, 154, 186);
+    color: rgb(48, 1, 34);
+    border: none;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-btn:hover{
+    background-color:white;
+    margin-left: 45px;
+}
+
+.carousel-indicators {
+    position: relative;
+    top: 700px;
+}
+
+/* Customize carousel controls */
+
+.previous-btn{
+    color: rgb(48, 1, 34);
+    position: relative;
+    left: -60px;
+    font-size: 50px;
+}
+
+.previous-btn:hover{
+    color: rgb(128, 14, 93);
+    transition: 0s;
+}
+
+.next-btn{
+    color: rgb(48, 1, 34);
+    position: relative;
+    left: 60px;
+    font-size: 50px;
+}
+
+/* .arrow> .fourth-section> .carousel>.carousel-control-prev> .carousel-control-prev> span {
+    background-color: #2f80a0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1;
+   
+} */
+
+
+/* FIFTH SECTION */
+
+.fifth-section{
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(53, 1, 37, 0.8), rgba(3, 0, 3, 0.95));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    
+}
+
+.reg{
+    height: 540px;
+    width: 400px;
+    background: url(images/reg.JPG);
+    background-size: cover; 
+    border-radius: 15px;
+    
+}
+
+.reg-steps{
+    color: white;
+    margin-left: 20px;
+}
+
+.reg-steps> h4{
+    font-weight: 600;
+}
+
+.reg-steps> h6{
+    color: rgb(229, 168, 248);
+}
+
+.steps{
+    background-color: rgb(107, 5, 82);
+    padding: 0px 50px 30px 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.steps:hover{
+    background-color: rgb(184, 37, 147);
+    padding: 0px 50px 30px 50px;
+}
+
+.steps > p> a{
+    text-decoration: none;
+    color: rgb(229, 168, 248);
+}
+
+.reg-num{
+    position: relative;
+    top: 25px;
+    left: -70px;
+}
+
+.fifth{
+    padding: 60px;
+}
+
+/* SIXTH SECTION */
+.sixth-section{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px;
+}
+
+.criteria{
+    background-color: white;
+    padding: 50px;
+    color: rgb(107, 5, 82);
+}
+
+.criteria> p{
+    font-size: 18px;
+}
+
+/* SEVENTH-SECTION */
+.seventh-section{
+    background: url(images/contact.JPG);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    flex-flow: row wrap;
+}
+
+.contact{
+    margin: 0px 40px;
+    height: 100%;
+    
+}
+
+.social-media> a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact-link> a {
+    text-decoration: none;
+    color: rgb(248, 181, 220);
+    line-height: 30px;
+}
+
+.contact-link> a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.contact-link> p {
+    font-weight: 600;
+}
+
+.contact> h6 {
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.contact> a> i {
+    margin-right: 20px;
+}
+
+#message-us{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 7px;
+}
+
+/* BACK TO TOP */
+
+/* Styles for the back-to-top button */
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(107, 5, 82);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#topButton:hover {
+    background-color: rgb(153, 51, 128);
+}
