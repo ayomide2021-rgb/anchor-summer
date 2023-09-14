@@ -1,0 +1,289 @@
+@media (max-width: 700px){
+    nav{
+        display: none;
+    }
+
+    .hero> .lp-nav{
+        display: none;
+    }
+
+    .hero> .phone-nav{
+        display: block;
+        width: 100%;
+        position: fixed;
+        height: 80px;
+
+    }
+
+/* The sidepanel menu */
+.sidepanel {
+    height: 100%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #270225; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 0px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #270225;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5PX;
+    position: fixed;
+    margin-top: 15px;
+    left: 300px;
+
+  }
+  
+  .openbtn:hover {
+    background-color: #440441;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px){
+    .hero > .text{
+        width: 80%;
+    }
+
+    .hero> .lp-nav{
+        display: none;
+    }
+
+    .hero> .phone-nav{
+        display: block;
+        width: 100%;
+        position: fixed;
+        height: 80px;
+
+    }
+
+    /* The sidepanel menu */
+.sidepanel {
+    height: 100%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #270225; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 0px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #270225;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5PX;
+    position: fixed;
+    margin-top: 15px;
+    left: 300px;
+
+  }
+  
+  .openbtn:hover {
+    background-color: #440441;
+  }
+    
+/* HERO SECTION */
+    body{
+        background-size: cover;
+    }
+
+    .hero{
+        margin-bottom: 100px;
+    }
+
+    .hero-link> a{
+        margin: 5px;
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    
+
+    /* SECOND SECTION */
+    .second-section> .first{
+        width: 100%;
+        margin: 0px;
+        padding: 0px 50px 50px 50px;
+    }
+
+    .second-section{
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .second-section> .image:hover{
+        background-size: 100%;
+    }
+    
+    .second-section> .image{
+        background: url(images/who.jpg);
+        background-size: 110%;
+        height: 200px;
+        width: 80%;
+    }
+    
+    /* THIRD-SECTION */
+
+    .third-section{
+        padding: 50px 0px;
+    }
+
+    .third-section> .diploma{
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .third-section> h6{
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+    .third-section> .diploma> .english{
+        width: 70%;
+        margin: 0px 50px 50px 50px;
+        padding: 30px 30px;
+    }
+    .third-section> h6{
+        font-weight: 400;
+    }
+
+/* FOURTH SECTION */
+    
+/* Customize carousel controls */
+
+.previous-btn{
+    color: rgb(48, 1, 34);
+    position: relative;
+    left: -7px;
+    font-size: 50px;
+}
+
+.previous-btn:hover{
+    color: rgb(128, 14, 93);
+    transition: 0s;
+}
+
+.next-btn{
+    color: rgb(48, 1, 34);
+    position: relative;
+    left: 7px;
+    font-size: 50px;
+}
+
+
+/* FIFTH SECTION */
+
+    .fifth-section{
+        height: 1250px;
+        
+    }
+
+    .reg{
+        height: 400px;
+        width: 80%;
+        margin-top: 70px;
+    }
+    
+    .steps{
+        padding: 0px 40px 20px 40px;
+    }
+
+    .reg-num{
+        top: 0px;
+        left: -60px;
+    }
+
+    /* SIXTH-SECTION */
+
+    .criteria{
+        margin: 30px;
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    /* SEVENTH SECTION */
+    .seventh-section{
+        justify-content: center;
+        padding: 20px 40px;
+        flex-direction: column;
+    }
+
+    .contact{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    
+}

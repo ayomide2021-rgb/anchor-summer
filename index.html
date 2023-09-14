@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AUL</title>
+
+    <!-- CARD SLIDER -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="pmedia.css">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0384ebf309.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image" href="images/logo.jpg">
+
+
+</head>
+<body>
+
+    <div id="topButton" onclick="scrollToTop()">&#9650;</div>
+
+<!-- HERO SECTION -->
+    
+<div class="hero">
+    
+    <!-- HAMBURGER MENU -->
+    
+    <nav class=" phone-nav">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#Home">Home</a>
+            <a href="#AboutUs">About</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Contact">Contact</a>
+        </div>
+          
+        <button class="openbtn" onclick="openNav()">&#9776; </button>
+    </nav>
+
+    <nav class="lp-nav">
+        <img src="images/logo.jpg" alt="" width="60px">
+        <div>
+            <a href="#Home">Home</a>
+            <a href="#AboutUs">About</a>
+            <a href="#Programs">Programs</a>
+            <a href="#Contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="text" id="Home">
+       <h1 class="m-3">Summer <span> School</span></h1>
+       <p>Enroll in our esteemed Summer School Program, a gateway to a summer of academic excellence, personal growth, and unforgettable experiences. Secure your spot today for a brighter future!</p>
+       <h5>AUGUST - OCTOBER</h5><br>
+       <div class="hero-link">
+        <a href="https://www.aul.edu.ng">Learn more</a>
+        <a href="https://www.aul.edu.ng"> Register</a>
+       </div>
+    </div>
+
+</div>
+
+<!-- SECOND SECTION -->
+<div class="second-section  " id="AboutUs">
+
+    <div class="first col-sm-8 col-md-8 col-lg-6">
+        <h5>WHO WE ARE</h5><br>
+        <p>Our mission  is to provide a dynamic and enriching educational environment during the summer break. We aim to offer students opportunities for academic advancement, skill development, and personal growth. </p>
+        <p> Through engaging courses, activities, and social interactions, we foster a love for learning and prepare students for future challenges.</p>
+        <a href="https://www.aul.edu.ng/"><button class="fb-btn">Discover more</button></a>
+    </div>
+    
+    <div class="image col-sm-6 col-md-8 col-lg-4" >
+        
+    </div>
+</div>
+
+<!-- THIRD-SECTION -->
+<div class="third-section" id="Programs">
+
+    <h3>DIPLOMA PROGRAMS</h3>
+    <h6>Our available diploma programs you might be interested in. </h6><br>
+
+    <div class="diploma">
+        <div class="english">
+            <h5 class="mb-3">English</h5>
+            <div class="image1 mb-3"></div>
+            <p>Discover the World of English: Join Our Course! </p>
+            <a href="https://www.aul.edu.ng/"><button class="eng-btn">Register</button></a>
+        </div>
+
+        <div class="english">
+            <h5 class="mb-3">French</h5>
+            <div class="image2 mb-3"></div>
+            <p>Explore the Beauty of French with Us! </p>
+            <a href="https://www.aul.edu.ng/"><button class="eng-btn">Register</button></a>
+        </div>
+
+        <div class="english">
+            <h5 class="mb-3">DISS</h5>
+            <div class="image3 mb-3"></div>
+            <p>Discover the Splendor of DISS with Our Guidance!</p>
+            <a href="https://www.aul.edu.ng/"><button class="eng-btn">Register</button></a>
+        </div>
+    </div>
+</div>
+
+<!-- FOURTH SECTION -->
+
+<div class="fourth-section" id="Programs">
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            
+            <!-- Add more indicators as needed -->
+        </ol>
+
+        <!-- Slides -->
+        <div class="carousel-inner ">
+
+            <div class="carousel-item active">
+                    <h2 class="fw-bold">EXECUTIVE DIPLOMA PROGRAMS</h2>
+                    <h6>Our available diploma programs you might be interested in.</h6><br><br>
+                <div class=" fourth">
+
+                    <div class="">
+                        <div class="card" >
+                            <div class="card-course" style="background: url(images/admin.JPG);"></div>
+                            <div class="card-enroll">
+                                    <ul>
+                                        <li>English</li>
+                                        <li>Local Government- Administration</li>
+                                        <li>Public Administration</li>
+                                    </ul>
+                            </div>
+                            <a href="https://www.aul.edu.ng"><button class="card-btn">Enroll</button></a>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="card">
+                            <div class="card-course" style="background: url(images/bible.JPG);"></div>
+                            <div class="card-enroll">
+                                <ul>
+                                    <li>Church planting and Development</li>
+                                    <li>Church History and Theology </li>
+                                    <li>Church History and Development</li>
+                                </ul>
+                            </div>
+                            <a href=""><button class="card-btn">Enroll</button></a>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="card">
+                            <div class="card-course" style="background: url(images/health.JPG);"></div>
+                            <div class="card-enroll">
+                                <ul>
+                                    <li> Health and Ministry</li>
+                                    <li>Certificate program in Community Policing & Paramilitary Studies</li>
+                                    <li>Church Management and Administration</li>
+                                </ul>
+                            </div>
+                            <a href="https://www.aul.edu.ng/"><button class="card-btn">Enroll</button></a>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="card">
+                            <div class="card-course" style="background: url(images/diploma.JPG);"></div>
+                            <div class="card-enroll">
+                                <ul>
+                                    <li>Diploma in Local Goverment Administration</li>
+                                    <li>Diploma in Community Policing & Paramilitary  Studies </li>
+                                    <li>Diploma in International Studies & Diplomacy</li>
+                                </ul>
+                            </div>
+                            <a href="https://www.aul.edu.ng/"><button class="card-btn">Enroll</button></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <h2 class="fw-bold">SHORT PROFICIENCY CERTIFICATE COURSES</h2>
+                <h6>Our available proficient Certificate courses you might be interested in.</h6><br><br>
+                <div class="fourth">
+
+                    <div class="">
+                        <div class="card">
+                            <div class="card-course" style="background: url(images/writing.JPG);"></div>
+                            <div class="card-enroll">
+                                <ul>
+                                    <li>Creative writing</li>
+                                    <li>Phonics Teaching proficiency</li>
+                                    <li>News writing</li>
+                                    <li>Public Speaking and Communication </li>
+                                </ul>
+                            </div>
+                            <a href="https://www.aul.edu.ng/"><button class="card-btn">Enroll</button></a>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="card">
+                            <div class="card-course" style="background: url(images/video.JPG);"></div>
+                            <div class="card-enroll">
+                                <ul>
+                                    <li>Theatre and performance Art</li>
+                                    <li>Cinematography and Video Editing .E.t.c.</li>
+                                    <li>Television and movie production</li>
+                                </ul>
+                            </div>
+                            <a href="https://www.aul.edu.ng/"><button class="card-btn">Enroll</button></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Add more carousel items with cards as needed -->
+        </div>
+
+        <!-- Left and right controls -->
+       
+             <a class="carousel-control-prev " href="#myCarousel" data-slide="prev">
+            <span class=" previous-btn"><i class="fa-solid fa-caret-left"></i></span>
+            </a>
+       
+       
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class=" next-btn"><i class="fa-solid fa-caret-right"></i></span>
+        </a>
+    </div>
+</div>
+
+
+<!-- FIFTH-SECTION -->
+<div class="fifth-section">
+    <div class="reg col-lg-4 col-md-8 col-sm-8 fifth">
+
+    </div>
+
+    <div class="reg-steps col-lg-6 col-md-12 col-sm-12 fifth">
+        <h4 class="fw-5">METHOD OF REGISTRATION</h4>
+        <h6>How it Works</h6><br>
+        
+        <div class="steps">
+            <img src="images/num1.png" alt="" width="40px" class="reg-num">
+            <p>Navigate to the 'Students' section on <a href="https://www.aul.edu.ng "> www.aul.edu.ng</a> </p>
+        </div>
+
+        <div class="steps">
+            <img src="images/num2.png" alt="" width="40px" class="reg-num">
+            <p>Select Certificate and Diploma</p>
+        </div>
+
+        <div class="steps">
+            <img src="images/num3.png" alt="" width="40px" class="reg-num">
+            <p>Complete application form with non-refundable fee of #20,000.</p>
+        </div>
+    </div>
+</div>
+
+<!-- SIXTH-SECTION -->
+<div class="sixth-section">
+    <div class="criteria">
+        <h2 class="mb-4">ENTRY CRITERIA</h2>
+        <p>A minimum of O'level with five credit passes in relevant subjects is required for each program.</p>
+    </div>
+</div>
+
+<!-- SEVENTH SECTION -->
+<div class="seventh-section" id="Contact">
+
+        <div class="contact">
+            <img src="images/logo.jpg" alt="" width="100px"><br><br>
+            <p>Get 20+ best online courses from us</p>
+            <div class="social-media">
+                <a href=""> <i class="fa-brands fa-facebook"></i> </a>   
+                <a href=""><i class="fa-brands fa-twitter"></i></a>   
+                <a href=""><i class="fa-solid fa-globe"></i></a>  
+            </div>
+        </div>
+
+        <div class="contact-link contact">
+            <h6>LINKS</h6>
+            <a href="">About Us</a><br>
+            <a href="">Diploma Program</a><br>
+            <a href="">Executive Diploma Program</a><br>
+            <a href="">Certificate course</a><br>
+            <a href="">Registration Steps</a>
+        </div>
+
+        <div class="contact contact-us contact-link">
+            <h6>CONTACT US</h6>
+            <a href="tel:+2348023540842"><i class="fa-solid fa-phone"></i> +234 802 354 0842</a><br>
+            <a href="mailto:directorctl@aul.edu.ng"> <i class="fa-solid fa-envelope"></i> directorctl@aul.edu.ng </a><br>
+            <a href=""><i class="fa-solid fa-location-dot"></i> Anchor University, Ayobo road, Ipaja, Lagos</a><br>
+            <textarea name="message" id="message-us" cols="20" rows="1" placeholder="Message Us"></textarea>
+        </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
